@@ -5,5 +5,5 @@
 int main() {
     char letter;
     scanf("%s",&letter);
-    printf("You entered: %s",letter)
+    printf("You entered: %s",letter);
 }
