@@ -15,6 +15,6 @@ void function1(){
     }
     for (j = i-1;j>=0;j--)
     printf("Hexadecimal: %X",deciNumber);
-    printf("Octal: %d",octalNUM[j])
+    printf("Octal: %d",octalNUM[j]);
 
 }
