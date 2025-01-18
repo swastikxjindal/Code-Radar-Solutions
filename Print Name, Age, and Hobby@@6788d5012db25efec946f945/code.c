@@ -4,12 +4,12 @@ int main(){
     char name[30];
     int age;
     char hobby[30];
-    scanf("%c",&name);
+    scanf("%s",&name);
     scanf("%d",&age);
-    scanf("%c",hobby);
-    printf("Name: %c\n",name);
+    scanf("%s",hobby);
+    printf("Name: %s\n",name);
     printf("Age: %d\n",age);
-    printf("Hobby: %c\n",hobby);
+    printf("Hobby: %s\n",hobby);
     return 0;
 
 }
