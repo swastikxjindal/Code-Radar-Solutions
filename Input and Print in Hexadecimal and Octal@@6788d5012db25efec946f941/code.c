@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void function1(){
+void function1(int n){
     int deciNumber;
     scanf("%d",deciNumber);
 
