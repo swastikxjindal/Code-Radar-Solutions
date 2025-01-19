@@ -11,8 +11,8 @@ int main() {
     if (a>b){
         printf("%d",a);
     }
-    else if(b>a){
+    else (b>a){
         printf("%d",b);
     }
-    return 0;
+
 }
