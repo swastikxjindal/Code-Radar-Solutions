@@ -10,6 +10,6 @@ int main() {
     else if (b>a){
         printf("%d",b);
     }
-    return 0;
+    // return 0;
 
 }
