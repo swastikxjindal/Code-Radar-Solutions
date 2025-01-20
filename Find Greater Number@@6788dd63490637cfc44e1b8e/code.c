@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
     int a,b;
     scanf("%d",&a);
@@ -14,5 +10,6 @@ int main() {
     else if (b>a){
         printf("%d",b);
     }
+    return 0;
 
 }
