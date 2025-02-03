@@ -1,12 +1,5 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-int isPrime(int num){
-
-}
-
 int main() {
 
     int num;
