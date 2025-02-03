@@ -10,6 +10,8 @@ int main() {
     if (a>=b){
         printf("Yes");
     }
-    else("No");
+    else{
+        printf("No");
+    }
     return 0;
 }
