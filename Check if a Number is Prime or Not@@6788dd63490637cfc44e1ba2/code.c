@@ -3,11 +3,21 @@
 char* welcome() {
     return "Welcome to Code Radar!";
 }
+int isPrime(int num){
+
+}
 
 int main() {
+
     int num;
     scanf("%d",&num);
-    if(num>1 && num%1==0){
+    int f =0;
+    for(int i =1 , i<=num, i++){
+        if(num%i==0){
+            f++;
+        }
+    }
+    if(f==2){
         printf("Prime");
     }
     else{
