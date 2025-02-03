@@ -17,6 +17,7 @@ int main() {
             f++;
         }
     }
+
     if(f==2){
         printf("Prime");
     }
