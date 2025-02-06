@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int day;
     scanf("%d",&day);
-    switch(day>=1 && day<=7){
+    switch(day){
         case 1:
             printf("Monday");
             break;
