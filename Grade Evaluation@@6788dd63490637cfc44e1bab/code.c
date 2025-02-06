@@ -15,19 +15,22 @@ int main() {
         case 'B'{
             printf("Good");
         }
-        break;case 'C'{
+        break;
+        case 'C'{
             printf("Average");
         }
-        break;case 'D'{
+        break;
+        case 'D'{
             printf("Below Average");
         }
-        break;case 'F'{
+        break;
+        case 'F'{
             printf("Fail");
         }
         break;
         default:
         printf("Invalid grade");
-        
+
     }
     return 0;
 }
