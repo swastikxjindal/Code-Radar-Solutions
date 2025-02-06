@@ -5,9 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    int num1,num2;
+    int a,b;
     char opp;
-    scanf("%d %d",&num1,&num2);
+    scanf("%d %d",&a,&b);
     scanf(" %c",&opp);
     switch(opp){
         case '+':
