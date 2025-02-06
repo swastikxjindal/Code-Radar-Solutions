@@ -9,20 +9,24 @@ int main() {
     char opp;
     scanf("%d %d",&num1,&num2);
     scanf("%c",&opp);
-    if (opp == '+'){
-        printf("%d",num1+num2);
-    }
-    else if(opp == '-'){
-        printf("%d",num1-num2);
-    }
-    else if(opp == '*'){
-        printf("%d",num1*num2);
-    }
-    else if(opp == '/'){
-        printf("%d",num1/num2);
-    }
-    else{
-        printf("Error");
+    switch(opp){
+        case '+':
+        printf("%d",a+b);
+        break;
+        case '-':
+        printf("%d",a-b);
+        break;
+        case '*':
+        printf("%d",a*b);
+        break;
+        case '/':
+        printf("%d",a/b);
+        break;
+        default:
+        {
+            printf("Error")
+        }
+
     }
     return 0;
 }
