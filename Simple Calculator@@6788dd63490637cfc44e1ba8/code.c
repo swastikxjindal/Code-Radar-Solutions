@@ -13,17 +13,26 @@ int main() {
         case '+':
         printf("%d",a+b);
         break;
+
         case '-':
         printf("%d",a-b);
         break;
+
         case '*':
         printf("%d",a*b);
         break;
+        
         case '/':
-        printf("%d",a/b);
+        if(b!=0){
+            printf("%d",a/b);
+        }
+        else{
+            printf("error");
+        }
         break;
+
         default:
-        printf("Error");
+        printf("Invalid");
     }
     return 0;
 }
