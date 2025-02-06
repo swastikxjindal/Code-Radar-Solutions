@@ -8,7 +8,7 @@ int main() {
     int num1,num2;
     char opp;
     scanf("%d %d",&num1,&num2);
-    scanf("%c",&opp);
+    scanf(" %c",&opp);
     switch(opp){
         case '+':
         printf("%d",a+b);
@@ -24,8 +24,6 @@ int main() {
         break;
         default:
         printf("Error");
-        
-
     }
     return 0;
 }
