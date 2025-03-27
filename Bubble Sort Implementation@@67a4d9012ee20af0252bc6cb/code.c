@@ -1,4 +1,20 @@
 #include <stdio.h>
+void swap(int* arr, int i, int j);
+void bubbleSort(int arr[],int n);
+void printArray(int arr[],int n);
+
+int main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i =0;i<n;i++){
+        scanf("%d", &arr[i]);
+    }
+    bubbleSort(arr,n);
+    printArray(arr,n);
+    return 0;
+}
+
 void swap(int* arr, int i, int j){
     int temp =  arr[i];
     arr[i] = arr[j];
@@ -19,16 +35,4 @@ void printArray(int arr[],int n){
     for (int i = 0; i < n; i++){
         printf("%d ", arr[i]);
     }        
-}
-
-int main(){
-    int n;
-    scanf("%d",&n);
-    int arr[n];
-    for(int i =0;i<n;i++){
-        scanf("%d", &arr[i]);
-    }
-    bubbleSort(arr,n);
-    printArray(arr,n);
-    return 0;
 }
